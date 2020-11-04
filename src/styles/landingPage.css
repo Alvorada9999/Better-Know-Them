@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(243, 227, 124);
+}
+
+.title {
+  color: rgb(23, 190, 187);
+  font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+  text-shadow: 2px 2px 2px rgb(240, 65, 88);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  gap: 8vh;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  align-items: center;
+}
+
+.textField {
+  border-radius: 50px;
+  border-style: none;
+  width: 28vw;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 1px rgba(23, 190, 187, 0.308);
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(131, 163, 159);
+  font-size: x-large;
+}
+
+.makeRoomBtn {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(23, 190, 187);
+  border-style: none;
+  background-color: rgb(243, 227, 124);
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(240, 65, 88);
+}
+
+.makeRoomBtn:hover {
+  color: rgb(240, 65, 88);
+  text-shadow: 2px 2px 2px rgb(240, 65, 88);
+}
+
+.instructions {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(240, 65, 88);
+  border-style: double;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(240, 65, 88);
+}
