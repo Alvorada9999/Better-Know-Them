@@ -2,6 +2,7 @@
   "name": "better-know-them",
   "version": "0.1.0",
   "private": true,
+  "author": "https://github.com/Kenedy-Henrique",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
@@ -35,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "2.1.2"
   }
 }
