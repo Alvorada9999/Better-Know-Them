@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import enterRoom from "./enterRoom";
-import createRoom from "./createRoom";
-
 import "../../styles/landingPage.css";
+
+import enterRoom from "./functions/enterRoom";
+import createRoom from "./functions/createRoom";
 
 function LandingPage(props) {
   const [roomName, setRoomName] = useState("");
@@ -12,12 +12,12 @@ function LandingPage(props) {
     setRoomName(event.target.value);
   }
 
-  function makeEnterRoom(event){
+  function makeEnterRoom(event) {
     event.preventDefault();
     enterRoom(props, roomName);
   }
 
-  function makeCreateRoom(event){
+  function makeCreateRoom(event) {
     event.preventDefault();
     createRoom(props, roomName);
   }
