@@ -36,7 +36,7 @@ function LandingPage(props) {
         <button onClick={makeCreateRoom}>Create Room</button>
       </form>
       <p className="instructions">
-        After of the creation of your room, give it's name to your friends.
+        After the creation of your room, give it's name to your friends.
       </p>
     </div>
   );
