@@ -8,10 +8,6 @@ import createRoom from "./functions/createRoom";
 function LandingPage(props) {
   const [roomName, setRoomName] = useState("");
 
-  function updateRoomName(event) {
-    setRoomName(event.target.value);
-  }
-
   function makeEnterRoom(event) {
     event.preventDefault();
     enterRoom(props, roomName);
@@ -30,7 +26,7 @@ function LandingPage(props) {
           className="textField"
           type="text"
           placeholder="Room Name"
-          onChange={updateRoomName}
+          onChange={(event) => setRoomName(event.target.value)}
         ></input>
         <button onClick={makeEnterRoom}>Enter Room</button>
         <button onClick={makeCreateRoom}>Create Room</button>
