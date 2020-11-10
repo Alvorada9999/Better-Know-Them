@@ -63,7 +63,7 @@ function GameRoom(props) {
         </button>
         <p>Press enter to enter the room, otherwise, you will not play.</p>
       </div>
-      <p className='question'>asdf</p>
+      <p className='question'>Waiting question</p>
       <div className="playground"></div>
     </div>
   );
