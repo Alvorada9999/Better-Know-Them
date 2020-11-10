@@ -1,6 +1,6 @@
 function enterRoom(props, roomId) {
   if (roomId !== "") {
-    fetch(`http://192.168.0.112:8000/room/enter/${roomId}`, { mode: "cors" })
+    fetch(`https://sleepy-hamlet-51050.herokuapp.com/room/enter/${roomId}`, { mode: "cors" })
       .then(function (response) {
         return response.json();
       })
