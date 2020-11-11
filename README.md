@@ -1,5 +1,8 @@
 <img src='./preview.png'>
 
+Call some friends and play the game [here](https://better-know-them.herokuapp.com/).
+See the back-end code [here](https://github.com/Kenedy-Henrique/Better-Know-Them-Server).
+
 Do you want to know the honest opinion of your peers or say something but you are afraid of their reaction? So this is perfect for you!
 
 Or do you want to ask a question about something or even about yourself to find out who are the ones who know you best? So this is also perfect for you!
