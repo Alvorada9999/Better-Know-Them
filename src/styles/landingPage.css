@@ -5,8 +5,9 @@ body {
 .title {
   color: rgb(23, 190, 187);
   font-family: "Pacifico", cursive;
-  font-size: 3vw;
+  font-size: 300%;
   text-shadow: 2px 2px 2px rgb(240, 65, 88);
+  text-align: center;
 }
 
 .container {
@@ -17,7 +18,6 @@ body {
   gap: 8vh;
   justify-content: center;
   position: relative;
-  bottom: 50px;
 }
 
 .container form {
@@ -30,7 +30,7 @@ body {
 .textField {
   border-radius: 50px;
   border-style: none;
-  width: 28vw;
+  width: 50vw;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 10px;
@@ -46,7 +46,7 @@ body {
   color: rgb(23, 190, 187);
   border-style: none;
   background-color: rgb(243, 227, 124);
-  font-size: 30px;
+  font-size: 200%;
   text-shadow: 2px 2px 2px rgb(240, 65, 88);
 }
 
@@ -60,6 +60,7 @@ body {
   font-family: "Quicksand", sans-serif;
   color: rgb(240, 65, 88);
   border-style: double;
-  font-size: 30px;
+  font-size: 150%;
   text-shadow: 2px 2px 2px rgb(240, 65, 88);
+  text-align: center;
 }
