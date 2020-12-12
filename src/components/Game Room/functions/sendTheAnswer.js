@@ -1,7 +1,6 @@
 import hideAnswerForm from "./animations/hideAnswerForm";
 
 function sendTheAnswer(webSocket, roomName) {
-  console.log(roomName);
   let answer = document.querySelector('.answerInputField').value;
   if (answer !== null && answer !== "") {
     webSocket.send(

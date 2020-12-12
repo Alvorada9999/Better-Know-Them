@@ -17,7 +17,6 @@ function GameRoom(props) {
 
   webSocket.onmessage = (event) => {
     const actionToDo = JSON.parse(event.data).actionToDo;
-    console.log(actionToDo);
 
     if (actionToDo === "askTheQuestion") {
       showQuestionForm();
@@ -25,7 +24,6 @@ function GameRoom(props) {
       question = JSON.parse(event.data).question;
       showAnswerForm(JSON.parse(event.data).question);
     } else if (actionToDo === "showResults") {
-      console.log("The results has arrived");
       renderResults(JSON.parse(event.data).results, question);
     }
   };
