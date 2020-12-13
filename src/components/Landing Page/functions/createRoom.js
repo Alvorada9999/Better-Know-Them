@@ -1,6 +1,6 @@
 function createRoom(props, roomId) {
   if (roomId !== "") {
-    fetch(`https://sleepy-hamlet-51050.herokuapp.com/room/create/${roomId}`, { mode: "cors" })
+    fetch(`https://better-know-them.herokuapp.com/room/create/${roomId}`, { mode: "cors" })
       .then(function (response) {
         return response.json();
       })
