@@ -1,11 +1,7 @@
 const start = (webSocket, roomId) => {
   document.querySelector(
-    ".instructionsToStart"
-  ).innerHTML = `<div className='instructionsToStart'>
-    <p>Every 30 seconds:</p>
-    <p>1 - A new player asks a question</p>
-    <p>2 - The answers to the previous question will be shown</p>
-  </div>`;
+    ".gameRoom"
+  ).removeChild(document.querySelector('.instructionsToStart'));
   webSocket.send(
     JSON.stringify({
       actionToDo: "enterRoom",
