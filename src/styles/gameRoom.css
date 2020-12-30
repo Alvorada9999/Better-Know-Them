@@ -41,10 +41,8 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 1.4rem;
   color: rgb(250, 247, 220);
-  /*text-shadow: 4px 4px 4px rgb(23, 190, 187);*/
-  /*text-shadow: 2px 2px 2px rgb(240, 65, 88);*/
   text-align: center;
   color: rgb(23, 190, 187);
 }
